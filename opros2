@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-color: #9F8170;
+            color:##270902;
+            font-family:sans-serif;
+            padding:50px
+        }
+    </style>
+<h3>Какой ваш любимый предмет</h3>
+</style>
+     </p>
+    <label>
+        <input type="radio" name ="freq" value="literature"> литература
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="maths"> математика
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="fisic"> физика
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="russian"> русский
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="informatica"> информатика
+    </label><br>
+    <br>
+    <a href="oprosglavnay.html">
+        <button><h3> дальше</button></h3>
+    </a>
