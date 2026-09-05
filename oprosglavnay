@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h3>OПРОС</h3>
+<p> что вы больше всего ненавидите
+    <style>
+        body{
+            background-color: #9F8170;
+            color:##270902;
+            font-family:sans-serif;
+            padding:50px
+        }
+    </style>
+     </p>
+    <label>
+        <input type="radio" name ="freq" value="school"> школу
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="work"> работу
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="communicate"> общение
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="EGE"> ЕГЭ
+    </label><br>
+    <br>
+    <label>
+        <input type="radio" name ="freq" value="yniver"> универ
+    </label><br>
+    <br>
+<button><h3>завершить опрос </button>
+
+
