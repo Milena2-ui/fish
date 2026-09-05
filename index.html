@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta name="viewport" content= "width"= device-width,initial-scale=1.0">
+    </head>
     <body>
 <h2>Пройдите пожалуйста опрос</h2>
-    <h3> займет не больше 5 минут  <p>
+    <h3> займет не больше 5 минут </p>
     <button class= "round-btn">
          <a href="opros.html"class="my-botton">перейти на опрос
 </button>
@@ -15,12 +18,29 @@
     background-color: grey;
     color: white;
     border: none;
-    font-size: 10px;
+    font-size: 14px;
     border-radius: 15px;
     .support-btn {
         position: fixed;
         bottom: 20px;
         right:20px;
+    @media (max-width: 768px;){
+        h2 {
+            font-size:1.5rem;
+            text-align:center;
+        h3{
+            font-size:1,1rem;
+            text-align:center;
+        }
+        .round-btn{
+            width: 100%;
+            padding: 12px 20px;
+            font-size:14px;
+        }
+        .support-btn{
+            bottom:10px;
+            right:10px;
+        }
     }
 </style>
 
